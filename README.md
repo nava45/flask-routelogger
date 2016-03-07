@@ -16,11 +16,11 @@ Currently v1.0 supports for the elastic search as full fledged backend. Also, th
 
 I hope you installed this extension in your virtual environment.
 
-> You can take a look at the file `test_flask_app.py`, here we have configured this flask-routelogger with the minimal flask application
+> You can take a look at the file `flask_app_example.py`, here we have configured this flask-routelogger with the minimal flask application
 
 run this minimal flask app,
 
-`python test_flask_app.py`
+`python flask_app_example.py`
 
 Once it starts running,
 
