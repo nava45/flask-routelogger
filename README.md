@@ -20,4 +20,10 @@ just hit the endpoint `http://localhost:5000/`
 
 If you have your elastic search setup proper in your localhost, you could see in the index few structured documents will be created.
 
+### Config_params:
+
+`INCLUDE_ROUTES`(`list`) = The logging facility will be enabled to the routes which are availabe here
+`EXCLUDE_ROUTES`(`list`) = The logging facility will be excluded to the routes which are availabe here
+`log_everything`(`bool`) = Top level bool param to decide to log everything or only specically configured endpoints
+
 
