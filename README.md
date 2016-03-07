@@ -1,6 +1,14 @@
 # flask-routelogger
 Flask Extension to log all meta request - response fields into the configured storage layer
 
+### Description
+
+This extension enables Logging of the each configured request and responses  of well structured meta-information to your backend for your flask based web application.
+
+This is extremely configurable for the custom backend storage to store all the logs. Since, the storage module implemented in modular way.
+
+Currently v1.0 supports for the elastic search as full fledged backend. Also, the flask application route endpoints can be configured to add or remove from logging activity as part of your web application configuration.
+
 ### To Install this extension:
 `python setup.py install`
 
